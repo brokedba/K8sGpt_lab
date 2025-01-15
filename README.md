@@ -100,9 +100,12 @@ Once the custom resource has been applied the K8sGPT-deployment will be installe
       "apiVersion": "core.k8sgpt.ai/v1alpha1",
       "kind": "Result",
       "spec": {
-        "details": "The error message means that the service in Kubernetes doesn't have any associated endpoints, which should have been labeled with \"control-plane=controller-manager\".
- \n\nTo solve this issue, you need to add the \"control-plane=controller-manager\" label to the endpoint that matches the service. Once the endpoint is labeled correctly,
-Kubernetes can associate it with the service, and the error should be resolved.",
+        "details": "The error message means that the service in Kubernetes doesn't have any associated endpoints, which should have
+ been labeled with \"control-plane=controller-manager\". \n\n
+To solve this issue, you need to add the \"control-plane=controller-manager\" label to the endpoint that matches the service.
+Once the endpoint is labeled correctly,Kubernetes can associate it with the service,
+and the error should be resolved."
+}
 ```
 # K8sGPT Configuration
 
