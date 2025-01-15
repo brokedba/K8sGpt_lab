@@ -2,6 +2,11 @@
 
 k8sgpt is a tool for scanning your Kubernetes clusters, diagnosing, and triaging issues in simple English.
 It has SRE experience codified into its analyzers and helps to pull out the most relevant information to enrich it with AI. Out of the box integration with OpenAI, Azure, Cohere, Amazon Bedrock, Google Gemini and local models.
+# Prerequisites:
+- Kubernetes cluster configured and running.
+- kubectl installed and configured to access your cluster.
+- K8sGPT installed on your system. If not, install it by following the official documentation.
+
 # Installation 
 - **RHEL**
 ```bash
