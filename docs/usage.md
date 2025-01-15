@@ -28,7 +28,7 @@ Example:
 ```bash
 k8sgpt analyze --filter pods,services
 ```
-6. Ask AI to find suggestions
+# Ask AI to find suggestions
 use `--explain`
 ```bash
 k8sgpt analyze --explain --filter=Service --namespace=default
