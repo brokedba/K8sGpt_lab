@@ -26,12 +26,14 @@ k8sgpt analyze --output json
 Focus the analysis on specific resource types or categories, such as Pods, Deployments, or Services:
 Example:
 ```bash
-k8sgpt analyze --filter pods,services
+ k8sgpt analyze --filter Pod --filter Ingress --filters Service
 ```
 # Ask AI to find suggestions
 use `--explain`
 ```bash
 k8sgpt analyze --explain --filter=Service --namespace=default
+
+k8sgpt analyze --explain --filter=Pod --namespace=broken
 ```
 7. Anonymize during explain
 ```bash
