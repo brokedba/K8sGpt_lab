@@ -37,7 +37,7 @@ k8sgpt analyze --explain --filter=Service --namespace=default
 ```bash
 k8sgpt analyze --explain --filter=Service --output=json --anonymize
 ```
-
+# AI backend
 List configured backends
 ```bash
 k8sgpt auth list
@@ -59,16 +59,29 @@ Unused:
 > ibmwatsonxai
 ```
 
-integrations
+# integrations
 ```bash
 k8sgpt integrations list
-k8sgpt integrations activate [integration(s)]
+Active:
+> trivy
+Unused:
+> keda
+> kyverno
+> prometheus
+> aws
+k8sgpt integrations activate trivy
+
+k8sgpt filters list | grep integration
+> VulnerabilityReport (integration)
+> ConfigAuditReport (integration)
 ```
 - Use integration
 ```
 k8sgpt analyze --filter=[integration(s)]
+
+k8sgpt analyze --filter=VulnerabilityReport -n broken
 ```
-**Ollama**
+# **Ollama**
 ```
 k8sgpt analyze -f Pod -b ollama -e
 ```
