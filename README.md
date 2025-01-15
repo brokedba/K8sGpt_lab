@@ -123,7 +123,7 @@ It can also run as an docker image, follow the instruction in [Ollama BLog](http
 ```
 docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
 ```
-Authenticate K8sGPT with Ollama:
+**Authenticate K8sGPT with Ollama:**
 ```
 k8sgpt auth add --backend ollama --model llama3.1:latest --baseurl http://localhost:11434 
 ```
