@@ -10,12 +10,12 @@ It has SRE experience codified into its analyzers and helps to pull out the most
 # Installation 
 - **RHEL**
 ```bash
- curl -LO https://github.com/k8sgpt-ai/k8sgpt/releases/download/v0.3.24/k8sgpt_amd64.rpm
+ curl -LO https://github.com/k8sgpt-ai/k8sgpt/releases/download/v0.3.48/k8sgpt_amd64.rpm
 sudo rpm -ivh -i k8sgpt_amd64.rpm
 ```
 - **Debian**
 ``` 
-curl -LO https://github.com/k8sgpt-ai/k8sgpt/releases/download/v0.3.40/k8sgpt_amd64.deb
+curl -LO https://github.com/k8sgpt-ai/k8sgpt/releases/download/v0.3.48/k8sgpt_amd64.deb
 sudo dpkg -i k8sgpt_amd64.deb
 k8sgpt version
 k8sgpt: 0.3.24 (eac9f07), built at: unknown
