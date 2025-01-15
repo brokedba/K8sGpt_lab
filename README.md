@@ -109,10 +109,11 @@ and the error should be resolved."
 ```
 # K8sGPT Configuration
 
-1. **OpenAI**
+# **OpenAI**
 ![image](https://github.com/user-attachments/assets/d8e566b0-d448-41fb-9a64-92f61aeb1a26)
 
-2. **Ollama**
+
+# **Ollama**
 
 Ollama can get up and running locally with large language models. It runs Llama 2, Code Llama, and other models.
 
