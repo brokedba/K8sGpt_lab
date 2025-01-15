@@ -88,7 +88,10 @@ spec:
 EOF
 ```
 Once the custom resource has been applied the K8sGPT-deployment will be installed and you will be able to see the Results objects of the analysis (if there are any issues in your cluster):
+```bash
 ❯ kubectl get results -o json | jq .
+```
+- output
 ```Json
 {
   "apiVersion": "v1",
